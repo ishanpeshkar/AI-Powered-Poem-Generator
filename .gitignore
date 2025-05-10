@@ -1,0 +1,22 @@
+venv/
+.venv/
+env/
+.env/
+ENV/
+venv*/  # Catches venv, venv2, etc.
+*/venv/ # Catches if venv is in a subfolder (less common for root)
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor specific files (optional but good practice)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files (optional but good practice)
+.DS_Store
+Thumbs.db
